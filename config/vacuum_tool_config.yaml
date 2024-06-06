@@ -1,0 +1,6 @@
+---
+disk_threshold: 85
+cpu_threshold: 75
+memory_threshold: 75
+check_interval: 5
+# add more configuration here

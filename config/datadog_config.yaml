@@ -1,0 +1,8 @@
+---
+api_key: DD_API_KEY
+app_key: DD_APP_KEY
+metrics:
+  disk_utilization: system.disk.utilization
+  cpu_usage: system.cpu.usage
+  memory_usage: system.memory.usage
+  ## add more metrics here
