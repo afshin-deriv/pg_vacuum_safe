@@ -1,4 +1,4 @@
-import psutil
+import psutil  # type: ignore
 import subprocess
 
 

@@ -1,4 +1,4 @@
-import requests
+import requests  # type: ignore
 
 
 def check_datadog_metrics(config):
@@ -12,8 +12,8 @@ def check_datadog_metrics(config):
         response = requests.get(
             f'https://api.datadoghq.com/api/v1/query?query={query}&from=now-5m&to=now', headers=headers)
         data = response.json()
-        # Process data and check thresholds
-        # Example: if data exceeds threshold, raise error
-        # ...
+    # Process data and check thresholds
+    # Example: if data exceeds threshold, raise error
+    # ...
 
-# More functions to fetch and process Datadog metrics
+    # More functions to fetch and process Datadog metrics
