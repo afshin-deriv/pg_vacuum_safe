@@ -21,6 +21,7 @@ However, using `VACUUM` in a production environment is quite a gamble. It increa
 pip install -r requirements.txt
 ```
 
-## Examples
-
 ## Usage
+```bash
+python3 -m src.vacuum_tool
+```
